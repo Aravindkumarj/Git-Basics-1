@@ -11,7 +11,7 @@ var mark = {
 var john = {
     full_name: "John Dolan",
     mass: 200,
-    height: 6.3,
+    height: 6.4,
     bmiCalc: function(){
         this.bmi = this.mass / (this.height * this.height);
         return this.bmi;     
