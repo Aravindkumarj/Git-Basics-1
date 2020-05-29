@@ -22,3 +22,5 @@ mike.bmiCalc();
 john.bmiCalc();
 
 console.log((mark.bmi > john.bmi)? "Mark's BMI is greater": ((john.bmi > mark.bmi)? "John's BMI is greater" : "Both got same BMI" ));
+console.log(mike);
+console.log(john);
