@@ -1,6 +1,7 @@
 var mike = {
     full_name: "Mike Tyson",
     mass: 300,
+	pet: 'Tiger',
     height: 5.9,
     bmiCalc: function(){
         this.bmi = this.mass / (this.height * this.height);
@@ -11,6 +12,7 @@ var mike = {
 var john = {
     full_name: "John Cena",
     mass: 250,
+	pet : 'Dog',
     height: 5.10,
     bmiCalc: function(){
         this.bmi = this.mass / (this.height * this.height);
