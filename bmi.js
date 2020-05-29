@@ -1,6 +1,6 @@
-var mark = {
-    full_name: "Mark Waugh",
-    mass: 200,
+var mike = {
+    full_name: "Mike Tyson",
+    mass: 300,
     height: 5.9,
     bmiCalc: function(){
         this.bmi = this.mass / (this.height * this.height);
@@ -9,8 +9,8 @@ var mark = {
 };
 
 var john = {
-    full_name: "John Dolan",
-    mass: 200,
+    full_name: "John Cena",
+    mass: 250,
     height: 5.10,
     bmiCalc: function(){
         this.bmi = this.mass / (this.height * this.height);
@@ -18,7 +18,7 @@ var john = {
     }
 };
 
-mark.bmiCalc();
+mike.bmiCalc();
 john.bmiCalc();
 
 console.log((mark.bmi > john.bmi)? "Mark's BMI is greater": ((john.bmi > mark.bmi)? "John's BMI is greater" : "Both got same BMI" ));
